@@ -1,0 +1,32 @@
+{
+	"packageName": "Web Pinger",
+	"minimumHEVersion": "2.1.9",
+	"author": "shadowjig",
+	"dateReleased": "2020-04-07",
+	"documentationLink": "https://github.com/shadowjig/hubitat",
+	"communityLink": "https://community.hubitat.com/t/release-web-pinger/8347",
+	"releaseNotes": "All release notes can be found within the Community Link and within the App/Driver code.",
+	"apps" : [
+		{
+			"id" : "f0821784-444f-4118-bb5a-d047fdc4772e",
+			"name": "Web Pinger",
+			"namespace": "shadowjig",
+			"location": "https://raw.githubusercontent.com/shadowjig/hubitat/main/Apps/Web%20Pinger/WP-child.groovy",
+			"required": true,
+			"oauth": false,
+			"version": "2.0.1",
+			"primary": true
+		},
+		{
+			"id" : "00307375-51c2-4a69-96e0-ae859dcad69e",
+			"name": "Web Pinger Child",
+			"namespace": "shadowjig",
+			"location": "https://raw.githubusercontent.com/shadowjig/hubitat/main/Apps/Web%20Pinger/WP-child.groovy",
+			"required": true,
+			"oauth": false,
+			"version": "2.1.9"
+		}
+	],
+	"drivers" : [	
+	]
+}
